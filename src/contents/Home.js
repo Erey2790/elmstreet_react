@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactTypingEffect from  'react-typing-effect';
-import profilePic from '../img/naafi_photo.png';
+import profilePic from '../img/bobby.png';
 import Social from '../components/Social';
 
 class Home extends Component {
