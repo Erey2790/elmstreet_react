@@ -6,8 +6,10 @@ class Social extends Component {
     render() {
         return (
             <div className='social'>
-              <FontAwesomeIcon icon={faGithub} size="4x"></FontAwesomeIcon>
-              <FontAwesomeIcon icon={faTwitter} size="4x"></FontAwesomeIcon>
+                <a href="https://github.com/Erey2790">
+              <FontAwesomeIcon icon={faGithub} size="4x" color='#24292f'></FontAwesomeIcon></a>
+              <a href="https://github.com/Erey2790">
+              <FontAwesomeIcon icon={faTwitter} size="4x" color='#0099CC'></FontAwesomeIcon></a>
             </div>
         )
     }

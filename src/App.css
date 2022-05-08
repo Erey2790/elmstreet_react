@@ -155,6 +155,7 @@ h1,h2,h3,h4,p{
     width: 100vw;
     display: flex;
     justify-content: space-around;
+    
     bottom: 30px;
   }
   .social i
