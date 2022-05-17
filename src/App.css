@@ -72,6 +72,29 @@ a
   color: white;
 }
 
+.skills-icons
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  align-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.text-icon
+{
+  display: block;
+  font-family: 'Raleway';
+  font-size: 15px;
+  
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .subtopic
 {
   margin:10px 10px 30px 10px !important;
@@ -111,6 +134,12 @@ h1,h2,h3,h4,p{
 {
   margin-right: 20px;
 }
+
+.myreact-icons {
+  color: red;
+  height: 2em;
+}
+
 .widecard
 {
   border:0px solid #9a9b9c;
