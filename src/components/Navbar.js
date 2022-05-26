@@ -24,7 +24,7 @@ class Navbar extends Component {
                     <Navitem item="Home" toLink='/' active={this.activeitem}></Navitem>
                     <Navitem item='About' toLink='/about' active={this.activeitem}></Navitem>
                     <Navitem item='Education' toLink='/education' active={this.activeitem}></Navitem>
-                    <Navitem item='Skills' toLink='/skills' active={this.activeitem}></Navitem>
+                    <Navitem item='Projects' toLink='/projects' active={this.activeitem}></Navitem>
                     <Navitem item='Contact' toLink='/contact' active={this.activeitem}></Navitem>
                 </ul>
             </nav>

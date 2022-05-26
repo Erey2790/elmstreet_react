@@ -62,14 +62,7 @@ class About extends Component {
                     < DiReact size='4em' color='#61DBFB'/>
                     <span className='text-icon'>React</span>
                     </li>
-                    <li>
-                    <FontAwesomeIcon icon={ faNode }></FontAwesomeIcon>
-                    <span className='text-icon'>NODE.JS</span>
-                    </li>
-                    <li>
-                    <FontAwesomeIcon icon={ faNode }></FontAwesomeIcon>
-                    <span className='text-icon'>React</span>
-                    </li>
+                    
                 </ul>
                 
 

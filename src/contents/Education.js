@@ -8,7 +8,7 @@ class Education extends Component {
             <div className='condiv'>
                 
                 <h1 className='subtopic'>My Education</h1>
-                <a href='https://www.credly.com/badges/18bb637f-eb31-4154-99f6-8a022696ea84/public_url'>
+                <a className='subtopic' href='https://www.credly.com/badges/18bb637f-eb31-4154-99f6-8a022696ea84/public_url'>
                 <Widecard title="Southern Methodist University" where='Continuing & Professional Education' from='Full Stack Web Development ' to='Coding Boot Camp (click here)' /></a>
                 
             </div>
