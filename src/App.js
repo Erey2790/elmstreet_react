@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
-// import Education from './contents/Education';
+import Education from './contents/Education';
 // import Skills from './contents/Skills';
 // import Contact from './contents/Contact';
 function App() {
@@ -15,6 +15,7 @@ function App() {
                 <Routes>
                     <Route exact path='/' element={<Home />} />
                     <Route path='/about' element={<About />} />
+                    <Route path='/education' element={<Education />} />
                 </Routes>
                 {/* <Route path="/education">
    <Education />

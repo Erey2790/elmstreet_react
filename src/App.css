@@ -98,6 +98,8 @@ ul {
 .subtopic
 {
   margin:10px 10px 30px 10px !important;
+  color: black
+  
 }
 p{
   font-size: var(--fontsize-p);
@@ -202,4 +204,27 @@ h1,h2,h3,h4,p{
   {
     padding-right: 0px;
   }
+
+  .skills-icons
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  align-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.text-icon
+{
+  display: block;
+  font-family: 'Raleway';
+  font-size: 15px;
+  
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+}
 }
