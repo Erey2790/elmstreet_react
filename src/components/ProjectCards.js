@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import projectPic from '../img/projectone.PNG';
+import budgetTracker from '../img/budgetTracker.PNG';
+import drinkmoto from '../img/drinkmoto.PNG';
 
 
 
@@ -13,23 +16,23 @@ class ProjectCards extends Component {
             <div className='projectos'>
                 
                     <div className='container'>
-                    <img src='img_avatar.png' alt='project 1'/>
-                        <h4><b>Project 1</b></h4>
-                        <p>Architect & Engineer</p>
+                    <img src={projectPic} alt='project 1' className='projectPic'/>
+                        <h4><b>Social Network API</b></h4>
+                        <p>This project uses MongoDB and Imsonmia to showcase the fundamentals of the CRUD routes.</p>
                     </div>
 
                     
                     <div className='container'>
-                    <img src='img_avatar.png'  alt='project 2'/>
-                        <h4><b>Project 2</b></h4>
-                        <p>Architect & Engineer</p>
+                    <img src={budgetTracker}  alt='project 2' className='projectPic'/>
+                        <h4><b>Budget Tracker</b></h4>
+                        <p>This application utilizes Service Workers, Web Manifest, IndexedDB, and is deployed with Heroku.</p>
                     </div>
 
                     
                     <div className='container'>
-                    <img src='img_avatar.png' alt='project 3'/>
-                        <h4><b>Project 3</b></h4>
-                        <p>Architect & Engineer</p>
+                    <img src={drinkmoto} alt='project 3' className='projectPic'/>
+                        <h4><b>Cocktail Roulette</b></h4>
+                        <p>A web application that uses JAVASCRIPT and a third party API to generate a random drink.</p>
                     </div>
             </div>
         )

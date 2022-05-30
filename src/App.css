@@ -172,10 +172,18 @@ h1,h2,h3,h4,p{
 .projectos
 {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 130px;
   grid-auto-flow: column;
   grid-template-columns: 186px 186px 186px;
   align-content: center;
+}
+
+.projectPic
+{
+  height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 }
 
 @media all and (max-width: 450px) {
