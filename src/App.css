@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+
+
 :root{
   --sidebar-flex:1.5;
   --condiv-flex:6;
@@ -72,25 +74,7 @@ a
   color: white;
 }
 
-.skills-icons
-{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  justify-content: space-around;
-  align-content: center;
-  column-gap: 10px;
-  row-gap: 10px;
-}
 
-.text-icon
-{
-  display: block;
-  font-family: 'Raleway';
-  font-size: 15px;
-  font-style: var(--fontsize-p);
-  font-size:var(--fontsize-nav) ;
-  text-align: justify;
-}
 
 ul {
   list-style-type: none;
@@ -163,6 +147,35 @@ h1,h2,h3,h4,p{
 {
   list-style-type:none;
   margin:30px;
+}
+
+.skills-icons
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  align-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.text-icon
+{
+  display: block;
+  font-family: 'Raleway';
+  font-size: 15px;
+  font-style: var(--fontsize-p);
+  font-size:var(--fontsize-nav) ;
+  text-align: justify;
+}
+
+.projectos
+{
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-flow: column;
+  grid-template-columns: 186px 186px 186px;
+  align-content: center;
 }
 
 @media all and (max-width: 450px) {

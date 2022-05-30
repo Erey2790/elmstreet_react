@@ -7,6 +7,8 @@ import About from './contents/About';
 import Education from './contents/Education';
 import Projects from './contents/Projects';
 // import Contact from './contents/Contact';
+// import 'bootstrap/dist/css/bootstrap.min.css'
+
 function App() {
  return (
         <Router>
