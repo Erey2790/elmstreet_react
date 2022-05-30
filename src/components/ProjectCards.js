@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import projectPic from '../img/projectone.PNG';
 import budgetTracker from '../img/budgetTracker.PNG';
 import drinkmoto from '../img/drinkmoto.PNG';
+import shopshop from '../img/shopshop.PNG';
 
 
 
@@ -16,8 +16,8 @@ class ProjectCards extends Component {
             <div className='projectos'>
                 
                     <div className='container'>
-                    <img src={projectPic} alt='project 1' className='projectPic'/>
-                        <h4><b>Social Network API</b></h4>
+                    <img src={shopshop} alt='project 1' className='projectPic'/>
+                        <h4><b>Shop Shop</b></h4>
                         <p>This project uses MongoDB and Imsonmia to showcase the fundamentals of the CRUD routes.</p>
                     </div>
 
