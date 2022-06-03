@@ -186,6 +186,11 @@ h1,h2,h3,h4,p{
     max-height: 300px;
 }
 
+.projectLinks{
+  color: black;
+  text-decoration: underline;
+}
+
 @media all and (max-width: 450px) {
   :root {
     --fontsize-nav:1rem;
@@ -200,7 +205,7 @@ h1,h2,h3,h4,p{
   {
     padding: 30px;
     background: rgb(238,103,143);
-    background: linear-gradient(90deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+    background: linear-gradient(to bottom, #0066cc 0%, #ccffff 100%);
   }
   .condiv
   {
