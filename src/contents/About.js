@@ -15,7 +15,7 @@ class About extends Component {
                 <h1 className='subtopic'>About Me</h1>
                 <h4>Hey there,</h4>
                 <h1>I'm Elmer Reyes</h1>
-                <h3>Full Stack Web <u>Developer</u> and these are some of my skills...</h3>
+                <h3>Full Stack Web <u>Developer</u>In the realm of software development. I have experience in both front-end and back-end development.  </h3>
                 <br></br>
                 <ul className='skills-icons'>
                     <li>
